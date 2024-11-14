@@ -1,0 +1,7 @@
+conda create -n yolo11 python=3.10.12
+conda activate yolo11
+
+pip install --upgrade pip
+pip install ultralytics
+
+python -c "from ultralytics import YOLO; print(YOLO)"
