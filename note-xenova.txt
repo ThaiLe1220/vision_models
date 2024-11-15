@@ -1,0 +1,5 @@
+conda create -n xenova python=3.10.12
+conda activate xenova
+
+pip install --upgrade pip
+pip install transformers diffusers torch
